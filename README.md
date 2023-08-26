@@ -26,8 +26,10 @@ Face recognition-based attendance systems utilize sophisticated algorithms and c
 - `Manually Fill Attendance` Button in UI is for fill a manually attendance (without facce recognition),it's also create a `.csv` and store in a database.
 
 ### Screenshots
-
-### Basic UI
+<img src="https://github.com/ZamanZaidi12/Face-recognition-attendance-system/blob/main/Screenshot%20(101).png">
+<img src = "https://github.com/ZamanZaidi12/Face-recognition-attendance-system/blob/main/Screenshot%20(104).png">
+<img src ="https://github.com/ZamanZaidi12/Face-recognition-attendance-system/blob/main/Screenshot%20(106).png">
+<img src ="https://github.com/ZamanZaidi12/Face-recognition-attendance-system/blob/main/Screenshot%20(155).png">
 
 
 ### Notes
