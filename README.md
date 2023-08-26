@@ -2,7 +2,22 @@
 Attendance Management System based on Face Recognition using Python  and OpenCv  
 Face recognition-based attendance systems utilize sophisticated algorithms and computer vision techniques to identify and authenticate individuals based on their unique facial features. By capturing and analyzing facial patterns, these systems can accurately determine an individual's presence, eliminating the need for manual attendance registers, ID cards, or biometric devices.
 
-### Code Requirements
+# Features:
+
+Face Detection: Utilizes a pre-trained deep learning model to detect faces within images or video streams.
+Face Recognition: Uses facial feature extraction and comparison algorithms to recognize individuals from their facial features.
+Real-time Processing: Performs face detection and recognition in real-time, allowing for immediate attendance marking.
+Attendance Logging: Records attendance data, including date, time, and the recognized individuals, in a structured database.
+User-friendly Interface: Provides a simple and intuitive interface for users to interact with the system, view attendance reports, and manage settings.
+Customization: Allows administrators to add new individuals, update existing profiles, and manage the database.
+Security and Privacy: Implements appropriate security measures to protect sensitive facial data and adheres to privacy regulations.
+Notifications: Notifies administrators or individuals about successful attendance marking or any system issues.
+
+### Technologies Used or Requirements:
+- Programming Language: Python
+- Libraries: OpenCV, dlib, face_recognition, SQLite (for database management)
+- User Interface: Tkinter (for GUI)
+- Version Control: Git (for project versioning and GitHub hosting)
 - Opencv(`pip install opencv-python`)
 - Tkinter(Available in python)
 - PIL (`pip install Pillow`)
@@ -33,5 +48,6 @@ Face recognition-based attendance systems utilize sophisticated algorithms and c
 
 
 ### Notes
-- It will require high processing power(I have 8 GB RAM)
-- Noisy image can reduce the accuracy, so quality of images should be good.
+- Ensure you have the necessary hardware (webcam or camera module) to capture images or video streams for recognition.
+- Respect privacy and legal regulations when using facial recognition technology.
+- It will require high processing power(Upto 4 GB RAM)
